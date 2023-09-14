@@ -16,7 +16,7 @@ for x in [RedLED, BlueLED]:
     x.direction = digitalio.Direction.OUTPUT
     
     
-oldval = True
+oldval = False
 
 
 def delayCheck(waitTime):
@@ -30,26 +30,31 @@ def delayCheck(waitTime):
     
     
     while time.time() - time1 < waitTime:
+        # print(oldval, Button.value) #DEBUG
         if Button.value == False and oldval:
             print("Aborted")
             RedLED.value = False
             BlueLED.value = False
+            oldval = True
             # if pressed recursivly call countdown to start the loop in the loop
             countdown()
             
+        
         oldval = Button.value
+        
     
     
     
 def countdown():
     global RedLED, BlueLED, Button,oldval
     
+    
+    
     while True:
-        time.sleep(.01)
-        if Button.value == False:
+        if Button.value == False and oldval: # false means pressed
             # print(Button.value, oldval) #DEBUG
-            oldval = Button.value
             
+            oldval = False
             
             for x in range(5):
 
@@ -65,7 +70,7 @@ def countdown():
             BlueLED.value = True
             time.sleep(2.5)
             BlueLED.value = False
-
+        oldval = Button.value
 countdown()
 
 
