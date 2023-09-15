@@ -90,8 +90,10 @@ RedLED.value = False
 ```
 
 ## Video
-https://github.com/Pweder69/Engineering_4_Notebook/assets/112962227/c163b2c7-e478-47ed-bc55-8aa9de551932
 
+
+
+https://github.com/Pweder69/Engineering_4_Notebook/assets/112962227/4ddb7952-9454-4dd3-ae60-19218dd3f250
 
 ### Reflection
 This assignment was a bit harder but really still very easy. All i had to do is just run a basic for loop and then sleep for the "launch".
@@ -185,8 +187,13 @@ countdown()
 
 #### Video
 
+https://github.com/Pweder69/Engineering_4_Notebook/assets/112962227/c163b2c7-e478-47ed-bc55-8aa9de551932
 
-https://github.com/Pweder69/Engineering_4_Notebook/assets/112962227/4ddb7952-9454-4dd3-ae60-19218dd3f250
 
+#### Wiring
 
 ### Reflection
+This assignments was by far the hardest specificaly becasue of the spicy. The solution for me was to use recursion to call the loop again on "abort" this was not the hard part as encapsulating was relativly easy. The hardest part by far was getting the debounce loop correct as you have to make sure the debounce enters the loop without imediatly aborting and then after still updating the button and also debouncing abort so it wouldnt infinity loop to crash the whole thing.
+
+
+##
