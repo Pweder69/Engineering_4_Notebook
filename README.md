@@ -191,9 +191,33 @@ https://github.com/Pweder69/Engineering_4_Notebook/assets/112962227/c163b2c7-e47
 
 
 #### Wiring
+<img src = "images/wirin%20countdown%203.png" width =300>
 
 ### Reflection
 This assignments was by far the hardest specificaly becasue of the spicy. The solution for me was to use recursion to call the loop again on "abort" this was not the hard part as encapsulating was relativly easy. The hardest part by far was getting the debounce loop correct as you have to make sure the debounce enters the loop without imediatly aborting and then after still updating the button and also debouncing abort so it wouldnt infinity loop to crash the whole thing.
 
 
-##
+---
+
+## Countdown 4 
+
+### Assignment Description
+In this assignment we were tasked with creating a countodwn similiarly as last time using a button to start. This time we had to incorporate a servo into the mix. The servo would start at 0 degrees and then move to 180 degrees over the course of the last 3 seconds of the countdown.
+
+
+### Evidence
+
+
+#### Video
+
+
+#### Wiring
+<img src = "images/wirein%204.png" width =300>
+
+#### Code
+
+https://github.com/Pweder69/Engineering_4_Notebook/blob/2b56c7c86ee3d0eb66bcc26dab34e6d730556517/raspberry-pi/Countdown4.py
+
+### Reflection
+
+This assignmnet was fun and easy to do as the problem was inivative i thought my solution was good although to complicated and looping over a set of degrees instead of time was overcomplicated. It also was good becaue it allowed me to learn how to use a servo again and all the intricacy of the servo library.
