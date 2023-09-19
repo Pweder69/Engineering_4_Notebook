@@ -4,7 +4,10 @@
 
 ## Table of Contents
 * [Led Blink](#led_blink)
-
+* [Countdown](#countdown)
+* [Countdown 2](#countdown-2)
+* [Countdown 3](#countdown-3)
+* [Countdown 4](#countdown-4)
 
 &nbsp;
 
@@ -59,7 +62,7 @@ print("Blast Off!")
 ### Reflection
 This assignment was again very easy and simple. I had no problems and all i did was use a for loop to countdown. I also used the time.sleep() function to make the program wait for 1 second before printing the next number. It was a good way to refresh on the python syntax.
 
-## Coutdown 2 
+## Countdown 2 
 
 
 ### Assignment Description
@@ -225,3 +228,5 @@ https://github.com/Pweder69/Engineering_4_Notebook/blob/fc1bf041284bd25b0e908ca2
 ### Reflection
 
 This assignmnet was fun and easy to do as the problem was inivative i thought my solution was good although to complicated and looping over a set of degrees instead of time was overcomplicated. It also was good becaue it allowed me to learn how to use a servo again and all the intricacy of the servo library.
+
+## 
