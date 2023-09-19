@@ -229,4 +229,12 @@ https://github.com/Pweder69/Engineering_4_Notebook/blob/fc1bf041284bd25b0e908ca2
 
 This assignmnet was fun and easy to do as the problem was inivative i thought my solution was good although to complicated and looping over a set of degrees instead of time was overcomplicated. It also was good becaue it allowed me to learn how to use a servo again and all the intricacy of the servo library.
 
-## 
+---
+
+## Crash Avoidance Part 1
+
+### Assignment Description
+We were tasked with adding a **mpu6050(Accelerometer)** to our board and then printing out the values that it gave us rounded to the third decimal place.
+
+### Evidence
+https://drive.google.com/file/d/1hORAMRco-jGlNJgxj5gkMHKzCPKyF0pD/view?usp=sharing
