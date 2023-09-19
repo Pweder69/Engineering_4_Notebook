@@ -239,4 +239,7 @@ We were tasked with adding a **mpu6050(Accelerometer)** to our board and then pr
 ### Evidence
 
 #### Video
-![](../../../Downloads/ACC1%20vid.gif)
+<img src = "images/ACC1 vid.gif" width = 400>
+
+#### Wiring
+<img src = "images\acc1 Wirein.png" width = 400>
