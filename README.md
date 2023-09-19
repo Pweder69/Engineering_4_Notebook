@@ -211,6 +211,10 @@ In this assignment we were tasked with creating a countodwn similiarly as last t
 #### Video
 
 
+https://github.com/Pweder69/Engineering_4_Notebook/assets/112962227/b9baa222-bc16-4262-962b-d77aec0a1b0b
+
+
+
 #### Wiring
 <img src = "images/wirein%204.png" width =300>
 
