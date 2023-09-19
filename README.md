@@ -237,4 +237,5 @@ This assignmnet was fun and easy to do as the problem was inivative i thought my
 We were tasked with adding a **mpu6050(Accelerometer)** to our board and then printing out the values that it gave us rounded to the third decimal place.
 
 ### Evidence
-<iframe width="640" height="480" src="https://drive.google.com/file/d/1hORAMRco-jGlNJgxj5gkMHKzCPKyF0pD/view?usp=sharing" frameborder="0" allowfullscreen></iframe>
+
+[<img src="https://drive.google.com/file/d/1hORAMRco-jGlNJgxj5gkMHKzCPKyF0pD/view?usp=sharing" width="50%">](https://drive.google.com/file/d/1hORAMRco-jGlNJgxj5gkMHKzCPKyF0pD/view?usp=sharing )
