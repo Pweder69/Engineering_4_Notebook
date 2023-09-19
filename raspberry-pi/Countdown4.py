@@ -25,7 +25,7 @@ for x in [RedLED, BlueLED]:
 
 while True:
     if not button.value:
-        
+        print(button.value)
         
         for x in range(7): # Traditional countdown loop that doesnt use servo
             RedLED.value = True
