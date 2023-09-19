@@ -238,4 +238,5 @@ We were tasked with adding a **mpu6050(Accelerometer)** to our board and then pr
 
 ### Evidence
 
-[<img src="https://drive.google.com/file/d/1hORAMRco-jGlNJgxj5gkMHKzCPKyF0pD/view?usp=sharing" width="50%">](https://drive.google.com/file/d/1hORAMRco-jGlNJgxj5gkMHKzCPKyF0pD/view?usp=sharing )
+#### Video
+![](../../../Downloads/ACC1%20vid.gif)
