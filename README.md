@@ -99,7 +99,7 @@ RedLED.value = False
 https://github.com/Pweder69/Engineering_4_Notebook/assets/112962227/4ddb7952-9454-4dd3-ae60-19218dd3f250
 
 ### Reflection
-This assignment was a bit harder but really still very easy. All i had to do is just run a basic for loop and then sleep for the "launch".
+This assignment was a bit harder but really still very easy. All i had to do is just run a basic for loop that runs the turn led off and then on again 10 times. Then i just had to turn the red led on for 10 seconds. There were no major design choices as this is practically just controlling 2 leds i doubught that two people could come up with a drasticaly diffrent solution for this problem.
 
 ## Countdown 3
  
@@ -243,3 +243,6 @@ We were tasked with adding a **mpu6050(Accelerometer)** to our board and then pr
 
 #### Wiring
 <img src = "images\acc1 Wirein.png" width = 400>
+
+### Reflection 
+This assignment was nice a
