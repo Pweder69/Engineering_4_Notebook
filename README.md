@@ -244,5 +244,79 @@ We were tasked with adding a **mpu6050(Accelerometer)** to our board and then pr
 #### Wiring
 <img src = "images\acc1 Wirein.png" width = 400>
 
+
+
+<details open>
+<summary>Code</summary>
+<br>
+
+```python
+sda_pin = board.GP14
+scl_pin = board.GP15
+
+i2c = busio.I2C(scl_pin, sda_pin)   
+
+mpu = adafruit_mpu6050.MPU6050(i2c)
+
+while True:
+    acc = mpu.acceleration
+    
+    added = [] # created added so i dont have to change the format everytime i want to print
+    for x in acc: # loops over acc tuple rounds the value and stores it in a new list.
+        added.append(round(x,3)) # rounds to 3 decimal places
+        
+    print(f"x:{added[0]} y:{added[1]} z:{added[2]}") # prints the values labeled with x y and z.
+```
+</details>
+
 ### Reflection 
-This assignment was nice a
+This assignment was nice way to get intoduced to more complex components as i have never used a board like this before. The one design choice made was to loop over the tuple and round each value into a new list. That solution is typicaly used for larger data but i did it becasue it would allow me to easily effect the format of the print statement without having to change every print statment if i were to print every value individualy.
+
+## Crash Avoidance Part 2
+
+### Assignment Description
+In this assignment we were tasked with printing the values of the accelerometer, to turn on an led if the device is rotated $\degree{90}$, and to attach a battery pack to the device to make it run on its own.
+
+
+### Evidence
+
+#### Video
+
+#### Wiring
+<img src =  "images/acc2%20wirin.png" width = 400>
+
+<details open>
+<summary>Code</summary>
+<br>
+
+```python
+led = digitalio.DigitalInOut(board.GP16)
+
+for x in [led]:
+    x.direction = digitalio.Direction.OUTPUT
+
+sda_pin = board.GP14
+scl_pin = board.GP15
+
+i2c = busio.I2C(scl_pin, sda_pin)   
+
+mpu = adafruit_mpu6050.MPU6050(i2c)
+
+while True:
+    acc = mpu.acceleration
+    
+    roundlist = [] # created roundlist so i dont have to change the format everytime i want to print
+    for x in acc: # loops over acc tuple rounds the value and stores it in a new list.
+        roundlist.append(round(x,3)) # rounds to 3 decimal places
+        
+    print(f"x:{roundlist[0]} y:{roundlist[1]} z:{roundlist[2]}") # prints the values labeled with x y and z.
+    
+    if abs(acc[0]) > 9.3 or abs(acc[1]) > 9.3: # takes the absolute value of the x and y values and if they  
+        led.value = True                       # are above 9.3 it turns on the led
+    else:
+        led.value = False    
+```
+
+</details>
+
+### Reflection
