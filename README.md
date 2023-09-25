@@ -321,3 +321,9 @@ while True:
 </details>
 
 ### Reflection
+I liked this assignment because it let us look at what the values mean and what the change in that value can mean. The value of the accelerometer thats constant when still is its "gravity" therefore if we rotate the device 90 degrees the gravity will be on the x axis and the y axis will be 0. This is why we can use the absolute value of the x and y values to determine if the device is rotated 90 degrees.  
+
+
+## Crash Avoidance Part 3
+
+### Assignment Description
