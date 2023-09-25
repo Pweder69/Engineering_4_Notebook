@@ -281,6 +281,7 @@ In this assignment we were tasked with printing the values of the accelerometer,
 ### Evidence
 
 #### Video
+<img src = "images/ACC2.gif" width = 400>
 
 #### Wiring
 <img src =  "images/acc2%20wirin.png" width = 400>
