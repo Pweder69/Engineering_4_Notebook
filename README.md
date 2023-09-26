@@ -65,6 +65,8 @@ print("Blast Off!")
 ### Reflection
 This assignment was again very easy and simple. I had no problems and all i did was use a for loop to countdown. I also used the time.sleep() function to make the program wait for 1 second before printing the next number. It was a good way to refresh on the python syntax.
 
+---
+
 ## Countdown 2 
 
 
@@ -103,6 +105,8 @@ https://github.com/Pweder69/Engineering_4_Notebook/assets/112962227/4ddb7952-945
 
 ### Reflection
 This assignment was a bit harder but really still very easy. All i had to do is just run a basic for loop that runs the turn led off and then on again 10 times. Then i just had to turn the red led on for 10 seconds. There were no major design choices as this is practically just controlling 2 leds i doubught that two people could come up with a drasticaly diffrent solution for this problem.
+
+---
 
 ## Countdown 3
  
@@ -275,6 +279,7 @@ while True:
 ### Reflection 
 This assignment was nice way to get intoduced to more complex components as i have never used a board like this before. The one design choice made was to loop over the tuple and round each value into a new list. That solution is typicaly used for larger data but i did it becasue it would allow me to easily effect the format of the print statement without having to change every print statment if i were to print every value individualy.
 
+---
 ## Crash Avoidance Part 2
 
 ### Assignment Description
@@ -326,7 +331,7 @@ while True:
 ### Reflection
 I liked this assignment because it let us look at what the values mean and what the change in that value can mean. The value of the accelerometer thats constant when still is its "gravity" therefore if we rotate the device 90 degrees the gravity will be on the x axis and the y axis will be 0. This is why we can use the absolute value of the x and y values to determine if the device is rotated 90 degrees.  
 
-
+---
 ## Crash Avoidance Part 3
 
 ### Assignment Description
