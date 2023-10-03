@@ -7853,3 +7853,5 @@ endsolid Mesh
 
 ```  
 
+### Reflection
+This assignment was a good intro into onshape again and i liked the competitive aspect. This assignment was obviously design heavy and the major design choice were made were formed of of the if it aint broke dont fix it concept taking inspiration from previous designs that worked and adapting what we thought would work well. Another thing we did is tackle the problem individually and then take what we thought was the best solution this encouraged each one of us to come up with our own creative solutions.
