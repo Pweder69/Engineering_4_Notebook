@@ -7865,7 +7865,7 @@ The Part had many deflection points but achived its design goal of concentrating
 
 <img src = "images/MPA%20FEA%20P3.png" width =500 alt = "MPA PRESSURE" >
 
-The stress points in the image suprisingly concentrate on the thicker and more supported parts of the which is a good reflection on the design as that is the goal but it also means that these areas are under the most pressure. The displacement is also good and under 30N if stress it only has 8 mm of displacement an average of $\degree{2}$. This is one of the best performances i have seen 
+The stress points in the image suprisingly concentrate on the thicker and more supported parts of the which is a good reflection on the design as that is the goal but it also means that these areas are under the most pressure. The displacement is also good and under 30N if stress it only has 8 mm of displacement an average of $\degree{2}$ . This is one of the best performances i have seen 
 
 <img src = "images\DIsplacement.png" width = 500>
 
