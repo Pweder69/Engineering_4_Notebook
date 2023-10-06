@@ -7855,3 +7855,21 @@ endsolid Mesh
 
 ### Reflection
 This assignment was a good intro into onshape again and i liked the competitive aspect. This assignment was obviously design heavy and the major design choice were made were formed of of the if it aint broke dont fix it concept taking inspiration from previous designs that worked and adapting what we thought would work well. Another thing we did is tackle the problem individually and then take what we thought was the best solution this encouraged each one of us to come up with our own creative solutions.
+
+
+## FEA Analysis
+
+### Stress points
+The Part had many deflection points but achived its design goal of concentrating the force on the support brackets and not on the base layer. As seen in the image:
+
+<img src = "images/MPA%20FEA%20P3.png" width =500 alt = "MPA PRESSURE" >
+
+The stress points in the image suprisingly concentrate on the thicker and more supported parts of the which is a good reflection on the design as that is the goal but it also means that these areas are under the most pressure. The displacement is also good and under 30N if stress it only has 8 mm of displacement an average of $\degree{2}$. This is one of the best performances i have seen 
+
+<img src = "images\DIsplacement.png" width = 500>
+
+
+### Design Changes
+My plan for reenforcing the beam is to remove material from the sides and renforce the main body and support beam with a triangle pattern. This will allow for the beam to be lighter and stronger. 
+
+<img src = "images\ENG FEA part 3 diagram.png" width = 500>
