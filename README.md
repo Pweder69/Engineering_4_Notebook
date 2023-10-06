@@ -12,6 +12,7 @@
 * [Crash Avoidance Part 2](#Crash-Avoidance-Part-2)
 * [Crash Avoidance Part 3](#Crash-Avoidance-Part-3)
 * [Beam design part 1](#beam-part-1)
+* [FEA Analysis](#fea-analysis)
 
 &nbsp;
 
