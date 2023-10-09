@@ -13,6 +13,7 @@
 * [Crash Avoidance Part 3](#Crash-Avoidance-Part-3)
 * [Beam design part 1](#beam-part-1)
 * [FEA Analysis](#fea-analysis)
+* [FEA Iterative design](#fea-iterative-design)
 
 &nbsp;
 
@@ -7875,3 +7876,9 @@ The stress points in the image suprisingly concentrate on the thicker and more s
 My plan for reenforcing the beam is to remove material from the sides and renforce the main body and support beam with a triangle pattern. This will allow for the beam to be lighter and stronger. 
 
 <img src = "images\ENG FEA part 3 diagram.png" width = 500>
+
+## FEA Iterative design
+
+The final goal of the design was to decrease the max amount of stress faced by the beam and to decrease the displacement of the beam. The major failure points were at the base of the beam and to solve this we added more triangular holes to the support beam in the areas that were not effected and increased the width from the support holes from the top of the support beam at the base to increase thickness and decrease stress. This was tested and after several iterations we decreased the max stress by ${\%{30}}$ and got 6.3 as a final max stress. Overall i would say i got lucky start with the innitial design that was good and then sollid improvement in my opinion my design was good and their was not much to improve on in the design/stratagies but only in placement of material.
+
+<img src = "images\FEA FINAL SIM.png" width = 400>
