@@ -14,7 +14,6 @@
 * [Beam design part 1](#beam-part-1)
 * [FEA Analysis](#fea-analysis)
 * [FEA Iterative design](#fea-iterative-design)
-* [Final Beam Design](#final-beam-design)
 
 &nbsp;
 
@@ -7883,10 +7882,3 @@ My plan for reenforcing the beam is to remove material from the sides and renfor
 The final goal of the design was to decrease the max amount of stress faced by the beam and to decrease the displacement of the beam. The major failure points were at the base of the beam and to solve this we added more triangular holes to the support beam in the areas that were not effected and increased the width from the support holes from the top of the support beam at the base to increase thickness and decrease stress. This was tested and after several iterations we decreased the max stress by ${\%{30}}$ and got 6.3 as a final max stress. Overall i would say i got lucky start with the innitial design that was good and then sollid improvement in my opinion my design was good and their was not much to improve on in the design/stratagies but only in placement of material.
 
 <img src = "images\FEA FINAL SIM.png" width = 400>
-
-## Final Beam Design
-The final design was focused on decreasing the weight carrying capacity of the beam as it placed second in the class for carrying total weight but that score didnt pass as it deflected over 35 degrees
-
-<img src = "images\IDEA 1  V3 FEA.png" width = 400>
-
-Therefore i changed the cuttouts and did a trick were i used half circles to round the top of the triangle these angles would be over 45 degrees but they would be allowed because circles with a diamater of 2.5 are legal. 
