@@ -287,7 +287,7 @@ This assignment was nice way to get intoduced to more complex components as i ha
 ## Crash Avoidance Part 2
 
 ### Assignment Description
-In this assignment we were tasked with printing the values of the accelerometer, to turn on an led if the device is rotated $\degree{90}$, and to attach a battery pack to the device to make it run on its own.
+In this assignment we were tasked with printing the values of the accelerometer, to turn on an led if the device is rotated $\degree{90}$ , and to attach a battery pack to the device to make it run on its own.
 
 
 ### Evidence
