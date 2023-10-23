@@ -468,5 +468,5 @@ In this assignment we where tasked with creating a function in python that takes
 
 
 ### Reflection 
-This was an easy asignment in terms of writing code but it showed me that i shouldnt reinvent the wheel espeicaily on calulating the area of a triangle as my first idea was to get the base an height by normalising a point and then getting its magnitude as a vector and doing that and then applying the $`\frac{1}{2} (B * H)`$ formula   
+This was an easy asignment in terms of writing code but it showed me that i shouldnt reinvent the wheel espeicaily on calulating the area of a triangle as my first idea was to get the base an height by normalising a point and then getting its magnitude as a vector and doing that and then applying the $`\frac{1}{2} B * H`$ formula   
 
