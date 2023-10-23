@@ -424,7 +424,7 @@ This assignments was a into into the annoying lcd class although i dont feel lik
 
 ### Assignment Description
 In this assignment we were tasked with creating a that would hold the maximum amount of weight possible. The beam had to be 3d printed so no angles over 
-$\degree{45}$ could be used. An example of a basic beam would be the beam below
+$`\degree{45}`$ could be used. An example of a basic beam would be the beam below
 &darr;
 
 <img width = 200 src="images/Idea%201%20Copy%201.png">
@@ -468,4 +468,5 @@ In this assignment we where tasked with creating a function in python that takes
 
 
 ### Reflection 
-This was an easy asignment in terms of writing code but it showed me that i shouldnt reinvent the wheel espeicaily on calulating the area of a triangle as my first idea was to get the base an height by normalising a point and then getting its magnitude as a vector and doing that and then applying the $\frac{1}{2} (B * H)$ formula   
+This was an easy asignment in terms of writing code but it showed me that i shouldnt reinvent the wheel espeicaily on calulating the area of a triangle as my first idea was to get the base an height by normalising a point and then getting its magnitude as a vector and doing that and then applying the $`\frac{1}{2} (B * H)`$ formula   
+
