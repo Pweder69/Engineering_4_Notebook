@@ -286,7 +286,7 @@ This assignment was nice way to get intoduced to more complex components as i ha
 ## Crash Avoidance Part 2
 
 ### Assignment Description
-In this assignment we were tasked with printing the values of the accelerometer, to turn on an led if the device is rotated $\degree{90}$, and to attach a battery pack to the device to make it run on its own.
+In this assignment we were tasked with printing the values of the accelerometer, to turn on an led if the device is rotated $90\degree$, and to attach a battery pack to the device to make it run on its own.
 
 
 ### Evidence
@@ -468,4 +468,4 @@ In this assignment we where tasked with creating a function in python that takes
 
 
 ### Reflection 
-This was an easy asignment in terms of writing code but it showed me that i shouldnt reinvent the wheel espeicaily on calulating the area of a triangle as my first idea was to get the base an height by normalising a point and then getting its magnitude as a vector and doing that and then applying the $\frac{1}{2}(B * H)$ formula   
+This was an easy asignment in terms of writing code but it showed me that i shouldnt reinvent the wheel espeicaily on calulating the area of a triangle as my first idea was to get the base an height by normalising a point and then getting its magnitude as a vector and doing that and then applying the $\frac{1}{2} (B * H)$ formula   
