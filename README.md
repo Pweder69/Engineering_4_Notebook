@@ -443,7 +443,7 @@ The Part had many deflection points but achived its design goal of concentrating
 
 <img src = "images/MPA%20FEA%20P3.png" width =500 alt = "MPA PRESSURE" >
 
-The stress points in the image suprisingly concentrate on the thicker and more supported parts of the which is a good reflection on the design as that is the goal but it also means that these areas are under the most pressure. The displacement is also good and under 30N if stress it only has 8 mm of displacement an average of $\degree{2}$. This is one of the best performances i have seen 
+The stress points in the image suprisingly concentrate on the thicker and more supported parts of the which is a good reflection on the design as that is the goal but it also means that these areas are under the most pressure. The displacement is also good and under 30N if stress it only has 8 mm of displacement an average of $2\degree$. This is one of the best performances i have seen 
 
 <img src = "images\DIsplacement.png" width = 500>
 
@@ -455,7 +455,7 @@ My plan for reenforcing the beam is to remove material from the sides and renfor
 
 ## FEA Iterative design
 
-The final goal of the design was to decrease the max amount of stress faced by the beam and to decrease the displacement of the beam. The major failure points were at the base of the beam and to solve this we added more triangular holes to the support beam in the areas that were not effected and increased the width from the support holes from the top of the support beam at the base to increase thickness and decrease stress. This was tested and after several iterations we decreased the max stress by $\%{30}$ and got 6.3 as a final max stress. Overall i would say i got lucky start with the innitial design that was good and then sollid improvement in my opinion my design was good and their was not much to improve on in the design/stratagies but only in placement of material.
+The final goal of the design was to decrease the max amount of stress faced by the beam and to decrease the displacement of the beam. The major failure points were at the base of the beam and to solve this we added more triangular holes to the support beam in the areas that were not effected and increased the width from the support holes from the top of the support beam at the base to increase thickness and decrease stress. This was tested and after several iterations we decreased the max stress by $30\%$ and got 6.3 as a final max stress. Overall i would say i got lucky start with the innitial design that was good and then sollid improvement in my opinion my design was good and their was not much to improve on in the design/stratagies but only in placement of material.
 
 <img src = "images\FEA FINAL SIM.png" width = 400>
 
@@ -468,4 +468,4 @@ In this assignment we where tasked with creating a function in python that takes
 
 
 ### Reflection 
-This was an easy asignment in terms of writing code but it showed me that i shouldnt reinvent the wheel espeicaily on calulating the area of a triangle as my first idea was to get the base an height by normalising a point and then getting its magnitude as a vector and doing that and then applying the 1/2 B * H formula   
+This was an easy asignment in terms of writing code but it showed me that i shouldnt reinvent the wheel espeicaily on calulating the area of a triangle as my first idea was to get the base an height by normalising a point and then getting its magnitude as a vector and doing that and then applying the $\frac{1}{2}(B * H)$ formula   
