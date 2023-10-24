@@ -465,10 +465,11 @@ The final goal of the design was to decrease the max amount of stress faced by t
 In this assignment we where tasked with creating a function in python that takes gets the area of a triangle and returns that area. We where also required to make sure that reguardless of the input that the function wouldnt throw an error as to avoid user error causing failure.
 
 ### Video
-
+<img src = "images/My%20Project.gif" width  =500>
 
 ### Reflection 
 This was an easy asignment in terms of writing code but it showed me that i shouldnt reinvent the wheel espeicaily on calulating the area of a triangle as my first idea was to get the base and height by normalising a point and then getting its magnitude as a vector and then applying the $`\frac{1}{2} B * H`$ formula. Turns out google is free and i should have just used the formula that exsists:  
 
 $`A = \frac{\left| x_1\left(y_2-y_3\right) + x_2\left(y_3 - y_1\right) + x_3 \left(y_1 - y_2\right) \right|}{2}`$ .
 
+3
