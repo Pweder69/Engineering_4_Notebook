@@ -14,8 +14,8 @@
 * [Beam design part 1](#beam-part-1)
 * [FEA Analysis](#fea-analysis)
 * [FEA Iterative design](#fea-iterative-design)
+* [Landing area Part 1](#landing-area-part-1)
 
-&nbsp;
 
 
 ## Led Blink
@@ -472,4 +472,11 @@ This was an easy asignment in terms of writing code but it showed me that i shou
 
 $`A = \frac{\left| x_1\left(y_2-y_3\right) + x_2\left(y_3 - y_1\right) + x_3 \left(y_1 - y_2\right) \right|}{2}`$ .
 
-3
+## Landing area Part 2
+
+### Description
+In this asignment we were tasked with drawing a triangle on an lcd based on inputs and also display that triangles area on the screen aswell
+
+### Video
+
+### Reflection
