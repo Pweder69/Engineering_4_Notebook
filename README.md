@@ -479,4 +479,9 @@ In this asignment we were tasked with drawing a triangle on an lcd based on inpu
 
 ### Video
 
+
+### Wiring
+<img src = "images/Wiring diagrams/landing pad 2.png" width =300>
+
 ### Reflection
+This assignment was fun to implement and i liked implementing more complex things on screens insead of the ususal LCD's. The design choices i made were simple i stayed uniform 
