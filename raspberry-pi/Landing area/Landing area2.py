@@ -45,12 +45,12 @@ def getArea(p1,p2,p3):
                         p2[0]*(p3[1]-(p1[1]))  + 
                         p3[0]*(p1[1]-(p2[1]))
                         )
-                        # In acordance to the area of a triangle formula relative to cordinate geometry
+                        # In accordance to the area of a triangle formula relative to coordinate geometry
                         # https://www.cuemath.com/geometry/area-of-triangle-in-coordinate-geometry/
             return side1    
 
 
-def transformCords(cords): # transforms the cordinates relative to the center of the screen and scales them up by "multiplier".
+def transformCords(cords): # transforms the coordinates relative to the center of the screen and scales them up by "multiplier".
     multiplier = 4
     x = (cords[0] * multiplier) + SWidth//2
     y = SHeight//2 + (cords[1] * multiplier)
@@ -60,7 +60,7 @@ def transformCords(cords): # transforms the cordinates relative to the center of
 while True:
     
     p1 = input("First point: ")
-    p2 = input("second point: ")
+    p2 = input("second point: ") # Must grab inputs outside of the main try loop or else we get stuck
     p3 = input("third point: ") 
     
     #try:
@@ -70,10 +70,10 @@ while True:
     AL = []
     nl = [] 
     for i,point in enumerate(l):
-        AL.append(tuple(int(x) for x in point.split(",")))
-        nl.append(transformCords(tuple(int(x) for x in point.split(","))))
+        AL.append(tuple(int(x) for x in point.split(","))) # fancy fast way to split the string into a tuple of ints
+        nl.append(transformCords(tuple(int(x) for x in point.split(",")))) # same as above but the coordinates to be drawn
         
-    Triangle = Triangle(nl[0][0],nl[0][1],nl[1][0],nl[1][1],nl[2][0],nl[2][1], fill=0xFFFFFF)
+    Triangle = Triangle(nl[0][0],nl[0][1],nl[1][0],nl[1][1],nl[2][0],nl[2][1], fill=0xFFFFFF) #passes in the transformed coordinates
 
     while len(screenGroup) > 0:
         screenGroup.pop()
@@ -82,13 +82,13 @@ while True:
     drawGrid()  
     screenGroup.append(Triangle)
     
-    text = f"Area : {getArea(nl[0],nl[1],nl[2])} km^2"
+    text = f"Area : {getArea(nl[0],nl[1],nl[2])} km^2" # Gets area of triangle and prints it.
     text_area = label.Label(terminalio.FONT, text = text , color=0xFFFF00, x=5, y=5)
     screenGroup.append(text_area)
     
     display.show(screenGroup)
     
-    print(f"Area of the triangle is {getArea(nl[0],nl[1],nl[2])}")
+    print(f"Area of the triangle is {getArea(nl[0],nl[1],nl[2])}") 
     #except Exception as e:
     # print(f"An error occurred: {e}")
     continue

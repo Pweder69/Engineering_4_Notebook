@@ -455,27 +455,27 @@ My plan for reenforcing the beam is to remove material from the sides and renfor
 
 ## FEA Iterative design
 
-The final goal of the design was to decrease the max amount of stress faced by the beam and to decrease the displacement of the beam. The major failure points were at the base of the beam and to solve this we added more triangular holes to the support beam in the areas that were not effected and increased the width from the support holes from the top of the support beam at the base to increase thickness and decrease stress. This was tested and after several iterations we decreased the max stress by $30\%$ and got 6.3 as a final max stress. Overall i would say i got lucky start with the innitial design that was good and then sollid improvement in my opinion my design was good and their was not much to improve on in the design/stratagies but only in placement of material.
+The final goal of the design was to decrease the max amount of stress faced by the beam and to decrease the displacement of the beam. The major failure points were at the base of the beam and to solve this we added more triangular holes to the support beam in the areas that were not effected and increased the width from the support holes from the top of the support beam at the base to increase thickness and decrease stress. This was tested and after several iterations we decreased the max stress by $30\%$ and got 6.3 as a final max stress. Overall i would say i got lucky start with the initial design that was good and then solid improvement in my opinion my design was good and their was not much to improve on in the design/strategies but only in placement of material.
 
 <img src = "images\FEA FINAL SIM.png" width = 400>
 
 ## Landing area Part 1
 
 ### Description 
-In this assignment we where tasked with creating a function in python that takes gets the area of a triangle and returns that area. We where also required to make sure that reguardless of the input that the function wouldnt throw an error as to avoid user error causing failure.
+In this assignment we where tasked with creating a function in python that takes gets the area of a triangle and returns that area. We where also required to make sure that regardless of the input that the function wouldn't throw an error as to avoid user error causing failure.
 
 ### Video
 <img src = "images/My%20Project.gif" width  =500>
 
 ### Reflection 
-This was an easy asignment in terms of writing code but it showed me that i shouldnt reinvent the wheel espeicaily on calulating the area of a triangle as my first idea was to get the base and height by normalising a point and then getting its magnitude as a vector and then applying the $`\frac{1}{2} B * H`$ formula. Turns out google is free and i should have just used the formula that exsists:  
+This was an easy assignment in terms of writing code but it showed me that i shouldnt reinvent the wheel espeicaily on calculating the area of a triangle as my first idea was to get the base and height by normalizing a point and then getting its magnitude as a vector and then applying the $`\frac{1}{2} B * H`$ formula. Turns out google is free and i should have just used the formula that exists:  
 
 $`A = \frac{\left| x_1\left(y_2-y_3\right) + x_2\left(y_3 - y_1\right) + x_3 \left(y_1 - y_2\right) \right|}{2}`$ .
 
 ## Landing area Part 2
 
 ### Description
-In this asignment we were tasked with drawing a triangle on an lcd based on inputs and also display that triangles area on the screen aswell
+In this assignment we were tasked with drawing a triangle on an lcd based on inputs and also display that triangles area on the screen as well.
 
 ### Video
 <img src = "images/Videos/My Project.gif" width = 500>
@@ -488,4 +488,4 @@ In this asignment we were tasked with drawing a triangle on an lcd based on inpu
 https://github.com/Pweder69/Engineering_4_Notebook/blob/7496c5a5950e16e288df305facc86be48fa6a491/raspberry-pi/Landing%20area/Landing%20area2.py#L12-L94 
 
 ### Reflection
-This assignment was fun to implement and i liked implementing more complex things on screens insead of the ususal LCD's. The design choices i made were simple i stayed uniform 
+This assignment was fun to implement and i liked implementing more complex things on screens instead of the usual LCD's. The design choices i made were simple i stayed uniform with design principles such as representing coordinate's as a tuple. The hardest part was making it relative to the center of the screen and also collecting the original points as i was multiplying them to scale up the screen to make smaller triangles visible to the user.
