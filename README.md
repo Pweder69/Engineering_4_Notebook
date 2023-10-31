@@ -478,10 +478,13 @@ $`A = \frac{\left| x_1\left(y_2-y_3\right) + x_2\left(y_3 - y_1\right) + x_3 \le
 In this asignment we were tasked with drawing a triangle on an lcd based on inputs and also display that triangles area on the screen aswell
 
 ### Video
-
+<img src = "images/Videos/My Project.gif" width = 500>
 
 ### Wiring
 <img src = "images/Wiring diagrams/landing pad 2.png" width =300>
+
+### Code
+https://github.com/Pweder69/Engineering_4_Notebook/blob/7496c5a5950e16e288df305facc86be48fa6a491/raspberry-pi/Landing%20area/Landing%20area2.py 
 
 ### Reflection
 This assignment was fun to implement and i liked implementing more complex things on screens insead of the ususal LCD's. The design choices i made were simple i stayed uniform 
