@@ -485,7 +485,7 @@ In this asignment we were tasked with drawing a triangle on an lcd based on inpu
 
 ### Code
 
-https://github.com/Pweder69/Engineering_4_Notebook/blob/7496c5a5950e16e288df305facc86be48fa6a491/raspberry-pi/Landing%20area/Landing%20area2
+https://github.com/Pweder69/Engineering_4_Notebook/blob/7496c5a5950e16e288df305facc86be48fa6a491/raspberry-pi/Landing%20area/Landing%20area2.py#L12-L94 
 
 ### Reflection
 This assignment was fun to implement and i liked implementing more complex things on screens insead of the ususal LCD's. The design choices i made were simple i stayed uniform 
