@@ -490,3 +490,10 @@ https://github.com/Pweder69/Engineering_4_Notebook/blob/7496c5a5950e16e288df305f
 
 ### Reflection
 This assignment was fun to implement and i liked implementing more complex things on screens instead of the usual LCD's. The design choices i made were simple i stayed uniform with design principles such as representing coordinate's as a tuple. The hardest part was making it relative to the center of the screen and also collecting the original points as i was multiplying them to scale up the screen to make smaller triangles visible to the user.
+
+
+## Morse code 1 
+
+### Description
+
+### Video
