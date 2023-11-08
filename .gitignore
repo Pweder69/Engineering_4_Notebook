@@ -1,2 +1,10 @@
 .picowgo
 /.vscode
+
+# Mac OS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/

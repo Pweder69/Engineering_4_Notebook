@@ -16,6 +16,7 @@
 * [FEA Iterative design](#fea-iterative-design)
 * [Landing area Part 1](#landing-area-part-1)
 * [Landing area Part 2](#landing-area-part-2)
+* [Morse code 1](#morse-code-1)
 
 
 
@@ -495,5 +496,15 @@ This assignment was fun to implement and i liked implementing more complex thing
 ## Morse code 1 
 
 ### Description
+This assignment was about taking a Hash map of all the morse code translations and then using that to translate a string into morse code. We were also tasked with exiting with the "-q" command
+
 
 ### Video
+<img src  = "images/Videos/morsecode1.gif">
+
+### Code
+https://github.com/Pweder69/Engineering_4_Notebook/blob/f08643efd85f3af4b4a6df256e081f9ab1530abf/raspberry-pi/MorseCode/MorseCode%201.py#L1-L22 
+
+
+### Reflection
+This assignment was easy as all i had to do was add space to the hash and then create a new string with the hashed values. Additionally i did this in a "code golf" style were i tried to use as few lines as possible not really great for readability but i wanted to learn inline for loops. Finaly i had to add the "-q" command which was easy as i just had to check if the first argument was "-q" and then exit the program.
