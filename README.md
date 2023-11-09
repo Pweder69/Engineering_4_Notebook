@@ -17,7 +17,7 @@
 * [Landing area Part 1](#landing-area-part-1)
 * [Landing area Part 2](#landing-area-part-2)
 * [Morse code 1](#morse-code-1)
-
+* [Morse code 2](#morse-code-2)
 
 
 ## Led Blink
@@ -508,3 +508,15 @@ https://github.com/Pweder69/Engineering_4_Notebook/blob/f08643efd85f3af4b4a6df25
 
 ### Reflection
 This assignment was easy as all i had to do was add space to the hash and then create a new string with the hashed values. Additionally i did this in a "code golf" style were i tried to use as few lines as possible not really great for readability but i wanted to learn inline for loops. Finaly i had to add the "-q" command which was easy as i just had to check if the first argument was "-q" and then exit the program.
+
+## Morse code 2
+
+### Description
+This asignment was the same as [morse Code 1](#morse-code-1) but this time we were soposed to flash an LED for the morse values.
+
+### Video
+
+### Code
+
+### Reflection
+For this assignment i used a hash that stores the morse values and corosponds them with the amount of time to turn the LED on or time to wait positve values turing the LED on and negative values making the LED wait. The main issues i had with this was that i didnt recognise that i ahd to wait for some values and turn on the led for others.
