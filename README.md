@@ -519,7 +519,8 @@ This asignment was the same as [morse Code 1](#morse-code-1) but this time we we
 
 
 ### Code
-https://github.com/Pweder69/Engineering_4_Notebook/blob/ec6112024c583e7f5d68fc53112b867e0afab48f/raspberry-pi/MorseCode/MorseCode%202.py#L8-L43C33
+
+https://github.com/Pweder69/Engineering_4_Notebook/blob/ec6112024c583e7f5d68fc53112b867e0afab48f/raspberry-pi/MorseCode/MorseCode%202.py#L8-L44
 
 ### Wiring
 <img src = "images/Wiring diagrams/Morse cod 2.png" width = 300>
