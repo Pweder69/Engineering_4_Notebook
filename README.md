@@ -500,7 +500,7 @@ This assignment was about taking a Hash map of all the morse code translations a
 
 
 ### Video
-<img src  = "images/Videos/morsecode1.gif">
+<img src  = "images/Videos/morsecode1.gif" width =400> 
 
 ### Code
 https://github.com/Pweder69/Engineering_4_Notebook/blob/f08643efd85f3af4b4a6df256e081f9ab1530abf/raspberry-pi/MorseCode/MorseCode%201.py#L1-L22 
@@ -515,8 +515,14 @@ This assignment was easy as all i had to do was add space to the hash and then c
 This asignment was the same as [morse Code 1](#morse-code-1) but this time we were soposed to flash an LED for the morse values.
 
 ### Video
+<img src = "images/Videos/Morse 2.gif" width =400>
+
 
 ### Code
+https://github.com/Pweder69/Engineering_4_Notebook/blob/ec6112024c583e7f5d68fc53112b867e0afab48f/raspberry-pi/MorseCode/MorseCode%202.py#L8-L43C33
+
+### Wiring
+<img src = "images/Wiring diagrams/Morse cod 2.png" width = 300>
 
 ### Reflection
 For this assignment i used a hash that stores the morse values and corosponds them with the amount of time to turn the LED on or time to wait positve values turing the LED on and negative values making the LED wait. The main issues i had with this was that i didnt recognise that i ahd to wait for some values and turn on the led for others.

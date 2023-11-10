@@ -29,7 +29,10 @@ MORSE_CODE = {
 
 while True:
     msg = input("Enter a message to convert to morse code or -q to quit: ").upper() # get the message and make it uppercase because lower case is not in the hash.
-    morseMsg =  ' '.join([MORSE_CODE[letter] + " " for letter in msg]) if msg != "-Q" else exit() # join a list of the letters translated to morse code to an empty string 
+    if msg != "-Q":
+        morseMsg =  ' '.join([MORSE_CODE[letter] + " " for letter in msg])   # join a list of the letters translated to morse code to an empty string 
+    else:
+        break
     
     for MorseValue in morseMsg:
         val = dotHash[MorseValue]
