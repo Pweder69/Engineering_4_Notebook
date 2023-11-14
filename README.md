@@ -528,3 +528,9 @@ https://github.com/Pweder69/Engineering_4_Notebook/blob/ec6112024c583e7f5d68fc53
 
 ### Reflection
 For this assignment i used a hash that stores the morse values and corosponds them with the amount of time to turn the LED on or time to wait positve values turing the LED on and negative values making the LED wait. The main issues i had with this was that i didnt recognise that i ahd to wait for some values and turn on the led for others.
+
+
+## Data 1 
+
+### Description
+In this assignment we were tasked with writing data to file we used the same data as in [Crash Avoidance Part 1](#crash-avoidance-part-1) and adding the time since innit 
