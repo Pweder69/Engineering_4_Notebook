@@ -533,4 +533,22 @@ For this assignment i used a hash that stores the morse values and corosponds th
 ## Data 1 
 
 ### Description
-In this assignment we were tasked with writing data to file we used the same data as in [Crash Avoidance Part 1](#crash-avoidance-part-1) and adding the time since innit 
+In this assignment we were tasked with writing data to file we used the same data as in [Crash Avoidance Part 1](#crash-avoidance-part-1) and adding the time since innitilization to the data.
+
+### Code
+
+https://github.com/Pweder69/Engineering_4_Notebook/blob/3ff048539e0980d2cad02f1dc62eb15b9f214239/raspberry-pi/Data/Data%201.py#L1-L46
+
+### CSV
+
+https://github.com/Pweder69/Engineering_4_Notebook/blob/3ff048539e0980d2cad02f1dc62eb15b9f214239/images/Misc/data.csv#L1-L20
+
+
+### Video
+![Alt text](<images/Videos/Data 1.gif>)
+
+### Wiring diagram
+<img src =  "images/Wiring diagrams/Data 1.png"  width =200>
+
+### Reflection
+This assignment was a good way for me to get reintroduced to context  managers for files as i have used them before. Most importantly i got use d
