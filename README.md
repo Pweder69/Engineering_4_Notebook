@@ -546,9 +546,8 @@ https://github.com/Pweder69/Engineering_4_Notebook/blob/3ff048539e0980d2cad02f1d
 
 ### Video
 ![Alt text](<images/Videos/Data 1.gif>)
-
 ### Wiring diagram
 <img src =  "images/Wiring diagrams/Data 1.png"  width =200>
 
 ### Reflection
-This assignment was a good way for me to get reintroduced to context  managers for files as i have used them before. Most importantly i got use d
+This assignment was a good way for me to get reintroduced to context  managers for files as i have used them before. Most importantly learned how to use data mode and the idea and syntax around it. Program specific design choices were not really much more of integration of previous knowledge and code used in previous assignments.
