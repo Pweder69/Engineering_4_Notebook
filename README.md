@@ -558,7 +558,7 @@ This assignment was a good way for me to get reintroduced to context  managers f
 
 ## Data 2 
 
-## Description 
+### Description 
 In this assignment we were tasked with creating graphs from the CSV file we created in [Data 1](#data-1) and then graphing the data using google sheets.
 
 
