@@ -569,3 +569,4 @@ In this assignment we were tasked with creating graphs from the CSV file we crea
 <img src = "images/Graphs/Screenshot 2023-11-28 130613.png" width = 400>
 
 ### Reflection
+This assignment was a good change to try to get us to learn how to visualise our data. I used google sheets to graph the data and it was a good way to learn how to use google sheets. My eventual plan would be to use matplotlib to animate the data but google sheets is a good way to start. 
