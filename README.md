@@ -18,6 +18,8 @@
 * [Landing area Part 2](#landing-area-part-2)
 * [Morse code 1](#morse-code-1)
 * [Morse code 2](#morse-code-2)
+* [Data 1](#data-1)
+* [Data 2](#data-2)
 
 
 ## Led Blink
@@ -551,3 +553,19 @@ https://github.com/Pweder69/Engineering_4_Notebook/blob/3ff048539e0980d2cad02f1d
 
 ### Reflection
 This assignment was a good way for me to get reintroduced to context  managers for files as i have used them before. Most importantly learned how to use data mode and the idea and syntax around it. Program specific design choices were not really much more of integration of previous knowledge and code used in previous assignments.
+
+---
+
+## Data 2 
+
+## Description 
+In this assignment we were tasked with creating graphs from the CSV file we created in [Data 1](#data-1) and then graphing the data using google sheets.
+
+
+### Graphs
+
+####
+<img src = "https://github.com/Pweder69/Engineering_4_Notebook/blob/main/images/Graphs/Screenshot%202023-11-28%20130851.png" width = 400>
+<img src = "images/Graphs/Screenshot 2023-11-28 130613.png" width = 400>
+
+### Reflection
